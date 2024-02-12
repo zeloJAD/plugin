@@ -1,0 +1,9 @@
+name: pierwszy
+version: '${project.version}'
+main: org.minecraft.pierwszy.Pierwszy
+api-version: '1.20'
+commands:
+  god:
+    description: immortal
+    permission: pierwszy.god
+    usage: "/god"
